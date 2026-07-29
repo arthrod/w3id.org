@@ -11,7 +11,8 @@ bundles across 42 areas of U.S. law) is the first jurisdiction.
 - US digest URIs: `https://w3id.org/digest-law/us/{area}/{topic}/`
 - Retained sources: `https://w3id.org/digest-law/us/{area}/{topic}/sources/{slug}/`
 - Audit trails: `https://w3id.org/digest-law/us/{area}/{topic}/audit/`
-- Published site & data: https://arthrod.github.io/digest-law-us/
+- Published site & data: https://digest.law/
+- SKOS concept scheme: https://digest.law/skos.jsonld
 - Source: https://github.com/arthrod/digest-law-us
 - Companion vocabulary (same maintainer): https://w3id.org/legal-taxonomy/
 

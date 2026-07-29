@@ -15,12 +15,12 @@ Options -MultiViews
 RewriteEngine on
 
 # --- United States corpus: https://w3id.org/digest-law/us/... ---
-# Bundle URIs: /us/{area}/{topic}/  (plus .../sources/{slug}/ and .../audit/)
-RewriteRule ^us/?$ https://arthrod.github.io/digest-law-us/ [R=303,NE,L]
-RewriteRule ^us/(.*)$ https://arthrod.github.io/digest-law-us/$1 [R=302,NE,L]
+# Digest URIs: /us/{area}/.../{topic}/  (plus .../sources/{slug}/ and .../audit/)
+RewriteRule ^us/?$ https://digest.law/ [R=303,NE,L]
+RewriteRule ^us/(.*)$ https://digest.law/$1 [R=302,NE,L]
 
 # --- Namespace root ---
-RewriteRule ^$ https://arthrod.github.io/digest-law-us/ [R=303,NE,L]
+RewriteRule ^$ https://digest.law/ [R=303,NE,L]
 
 # --- Everything else ---
-RewriteRule ^(.*)$ https://arthrod.github.io/digest-law-us/$1 [R=302,NE,L]
+RewriteRule ^(.*)$ https://digest.law/$1 [R=302,NE,L]
